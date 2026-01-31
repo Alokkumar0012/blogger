@@ -17,6 +17,7 @@ const Navbar = () => {
         appId: "1:562614811559:web:ddc712fbf0e85194611482",
         measurementId: "G-N02HYN7D6J"
     };
+    
 
     const [user, setUser] = useState(null); // Firebase उपयोगकर्ता को ट्रैक करने के लिए स्टेट
     const [authInstance, setAuthInstance] = useState(null); // Firebase auth इंस्टेंस
